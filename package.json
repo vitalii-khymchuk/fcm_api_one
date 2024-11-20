@@ -1,0 +1,19 @@
+{
+  "name": "fcm_api_one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1"
+  }
+}
